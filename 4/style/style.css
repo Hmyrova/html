@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    height: 100px;
+    width: 200px;
+    background-color: red;
+    margin: 10px 10px 10px 10px;
+}
+
+/*.first{
+	background-color: green;}*/ /* »спользование селектора по классу*/
+
+#d1{
+	background-color: PaleGreen; /*»спользование селектора по айди,смена цвета*/
+}
+
+#d2{
+	background-color: GreenYellow; /*»спользование селектора по айди,смена цвета*/
+}
+
+#d3{
+	background-color: LimeGreen; /*»спользование селектора по айди,смена цвета*/
+}
+
+#d4{
+	background-color: SeaGreen; /*»спользование селектора по айди,смена цвета*/
+}
+
+#d5{
+	background-color: Green; /*»спользование селектора по айди,смена цвета*/
+}
+
+#d6{
+	background-color: DarkGreen; /*»спользование селектора по айди,смена цвета*/
+}
+p:first-child {
+  color: Black;
+  background-color: BlanchedAlmond;/*псевдокласс,находит любой элемент, €вл€ющийс€ первым у родител€ */
+  padding: 7px;
+}
+p:first-letter{  
+	font-size: 25px;/* псевдоэлемент,создающий начальный символ абзаца,который выдел€етьс€ из остального текста*/
+	color: DarkOliveGreen;
+}
+
+p:first-line{
+	font-weight: bold;/* псевдоэлемент,использующй всю первую строку текста*/
+	color: OliveDrab;
+}
+
+
+::selection{
+	color: Khaki;
+	background-color: Black;/* псевдоэлемент,отвечающий за выделение */
+}
+
+a:hover{
+	background: PeachPuff ;/*псевдокласс,находит любой элемент, €вл€ющийс€ первым у родител€ */
+	color: DarkOliveGreen;
+}
+a[href="https://ru.wikipedia.org/wiki/«елЄный_цвет"]{
+	color: DarkOliveGreen;/*÷вет ссылки */
+}
+a:visited{
+	color: LimeGreen;/*псевдокласс,отмечает цветом посещенную ссылку */
+}
